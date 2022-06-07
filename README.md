@@ -1,3 +1,33 @@
+# Considerations
+
+The architecture of the application is a basic MVC dividing the folders into controllers, repositories, routes, model and middleware.
+
+### routes
+- define the http route and deliver the handle of the request to a controller
+
+### controller
+- handles the request received by a route
+
+### repository
+- handles all the interface with sequelize
+
+### model
+- define the sequelize model
+
+### midldleware
+- define some functions to be called before or after the requests 
+
+
+### Some things that I would have done if I had more time:
+- Integration tests
+- Lint validations
+- change the code to use ES6
+
+
+
+
+
+
 # DEEL BACKEND TASK
 
   
